@@ -1,0 +1,635 @@
+<title>Master Kode SPKRT 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: sticky search band over a single reading column; results are
+   commodity cards whose codes sit in questionnaire-style digit boxes. */
+:root {
+  --bg: #f4f6f4;
+  --surface: #ffffff;
+  --ink: #18211f;
+  --muted: #586561;
+  --line: #d6ddda;
+  --accent: #0b6657;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2efeb;
+  --mark: #ffe48a;
+  --mark-ink: #18211f;
+  --warn: #8a5300;
+  --warn-bg: #fbefd8;
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1413; --surface: #151d1b; --ink: #e5ebe9; --muted: #98a6a2;
+    --line: #2a3532; --accent: #5ec4ad; --accent-ink: #0b1714; --accent-soft: #17302a;
+    --mark: #5f5212; --mark-ink: #fff6cf; --warn: #f0b75e; --warn-bg: #33270f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1413; --surface: #151d1b; --ink: #e5ebe9; --muted: #98a6a2;
+  --line: #2a3532; --accent: #5ec4ad; --accent-ink: #0b1714; --accent-soft: #17302a;
+  --mark: #5f5212; --mark-ink: #fff6cf; --warn: #f0b75e; --warn-bg: #33270f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  margin: 0;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface);
+}
+.wrap {
+  max-width: 920px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--surface); border-bottom: 1px solid var(--line);
+}
+header.top .wrap { padding-block: 14px 12px; display: grid; gap: 10px; }
+.brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.brand h1 {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.15rem;
+  letter-spacing: -0.01em; margin: 0; text-wrap: balance;
+}
+.brand .sub { color: var(--muted); font-size: 0.82rem; }
+.search { position: relative; }
+.search input {
+  width: 100%; font: inherit; font-size: 1.05rem; color: var(--ink);
+  background: var(--bg); border: 1.5px solid var(--line); border-radius: var(--radius);
+  padding: 11px 76px 11px 14px; outline: none;
+}
+.search input:focus { border-color: var(--accent); background: var(--surface); }
+.search .hint {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  display: flex; gap: 6px; align-items: center;
+}
+.kbd {
+  font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px;
+}
+.clear {
+  font: inherit; font-size: 0.8rem; color: var(--muted); background: none;
+  border: 0; cursor: pointer; padding: 4px 6px; border-radius: 4px;
+}
+.clear:hover { color: var(--ink); background: var(--accent-soft); }
+.chips {
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin;
+  padding-bottom: 2px; margin: 0 -2px; padding-inline: 2px;
+}
+.chip {
+  flex: none; font: inherit; font-size: 0.8rem; cursor: pointer;
+  color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px;
+  display: inline-flex; gap: 6px; align-items: baseline;
+}
+.chip b { font-family: var(--font-mono); font-weight: 500; color: var(--muted); }
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.chip[aria-pressed="true"] b { color: inherit; opacity: 0.8; }
+button:focus-visible, input:focus-visible, a:focus-visible, select:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+
+main .wrap { padding-block: 18px 40px; display: grid; gap: 14px; }
+.status { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center; }
+.status p { margin: 0; color: var(--muted); font-size: 0.88rem; }
+.status p strong { color: var(--ink); font-weight: 600; }
+.fmt { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--muted); }
+.fmt select {
+  font: inherit; font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 3px 6px;
+}
+
+/* Digit boxes, like the coding boxes on a printed questionnaire */
+.code { display: inline-flex; gap: 5px; align-items: center; font-family: var(--font-mono); }
+.cb { display: inline-flex; }
+.cb i {
+  font-style: normal; font-size: 0.85rem; font-weight: 500; line-height: 1;
+  width: 1.32em; padding: 4px 0; text-align: center;
+  border: 1px solid var(--line); border-left-width: 0; background: var(--surface);
+}
+.cb i:first-child { border-left-width: 1px; border-radius: 3px 0 0 3px; }
+.cb i:last-child { border-radius: 0 3px 3px 0; }
+.cb i:only-child { border-radius: 3px; }
+.code .cap { font-size: 0.66rem; color: var(--muted); letter-spacing: 0.04em; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  min-width: 0;
+}
+.card-head { padding: 14px 16px 12px; display: grid; gap: 6px; border-bottom: 1px solid var(--line); }
+.card-head .row1 { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.card-head h2 {
+  font-family: var(--font-display); font-weight: 600; font-size: 1.06rem; margin: 0;
+  letter-spacing: -0.005em; text-wrap: balance; min-width: 0;
+}
+.crumb { font-size: 0.8rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 6px; }
+.crumb button {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer;
+  text-align: left;
+}
+.crumb button:hover { color: var(--accent); text-decoration: underline; }
+.crumb .sep { opacity: 0.5; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 0.78rem; color: var(--muted); }
+.flag {
+  font-size: 0.75rem; color: var(--warn); background: var(--warn-bg);
+  border-radius: 4px; padding: 1px 7px;
+}
+.qtable { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.qtable td { padding: 7px 16px; border-top: 1px solid var(--line); vertical-align: top; }
+.qtable tr:first-child td { border-top: 0; }
+.qtable td.qc { width: 1%; white-space: nowrap; font-family: var(--font-mono); color: var(--muted); padding-right: 4px; }
+.qtable td.qn { word-break: break-word; }
+.qtable td.qa { width: 1%; text-align: right; white-space: nowrap; padding-left: 4px; }
+.qtable tr.dup td.qc { color: var(--warn); }
+.copy {
+  font: inherit; font-family: var(--font-mono); font-size: 0.74rem; color: var(--muted);
+  background: none; border: 1px solid transparent; border-radius: 4px; padding: 2px 7px; cursor: pointer;
+}
+.qtable tr:hover .copy, .copy:focus-visible { border-color: var(--line); color: var(--ink); }
+.copy.done { color: var(--accent); border-color: var(--accent); }
+.more {
+  display: block; width: 100%; font: inherit; font-size: 0.84rem; color: var(--accent);
+  background: none; border: 0; border-top: 1px solid var(--line); padding: 9px 16px;
+  text-align: left; cursor: pointer;
+}
+.more:hover { background: var(--accent-soft); }
+mark { background: var(--mark); color: var(--mark-ink); border-radius: 2px; padding: 0 1px; }
+
+/* Browse view */
+.groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.group {
+  font: inherit; color: inherit; text-align: left; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 14px; display: grid; gap: 6px; align-content: start;
+}
+.group:hover { border-color: var(--accent); }
+.group .gname { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; line-height: 1.3; }
+.group .gnum { font-size: 0.78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.tree { display: grid; gap: 14px; }
+.tree section { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); min-width: 0; }
+.tree h3 {
+  margin: 0; padding: 12px 16px; font-family: var(--font-display); font-weight: 600; font-size: 0.98rem;
+  border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+}
+.tree h4 {
+  margin: 0; padding: 10px 16px 4px; font-size: 0.82rem; font-weight: 600; color: var(--muted);
+  display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+}
+.klist { display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 16px 14px; }
+.kbtn {
+  font: inherit; font-size: 0.82rem; color: var(--ink); cursor: pointer;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 3px 8px;
+  display: inline-flex; gap: 6px; align-items: baseline; text-align: left;
+}
+.kbtn small { font-family: var(--font-mono); color: var(--muted); font-size: 0.72rem; }
+.kbtn:hover { border-color: var(--accent); }
+.empty {
+  background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius);
+  padding: 22px 18px; color: var(--muted);
+}
+.empty strong { color: var(--ink); }
+.tips { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; font-size: 0.88rem; color: var(--muted); }
+.tips code { font-family: var(--font-mono); font-size: 0.82rem; color: var(--ink); background: var(--accent-soft); padding: 1px 5px; border-radius: 3px; }
+.tips button { font: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+footer { color: var(--muted); font-size: 0.8rem; }
+footer .wrap { padding-block: 0 36px; display: grid; gap: 6px; max-width: 920px; }
+footer p { margin: 0; max-width: 72ch; }
+.loadmore {
+  font: inherit; font-size: 0.9rem; color: var(--accent); cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px;
+}
+.loadmore:hover { border-color: var(--accent); }
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%);
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  background: var(--ink); color: var(--bg); font-size: 0.85rem;
+  padding: 8px 14px; border-radius: 6px; z-index: 20;
+}
+@media (max-width: 520px) {
+  .search .kbd { display: none; }
+  .brand .sub { display: none; }
+  .brand h1 { font-size: 1rem; }
+  .qtable td { padding: 7px 12px; }
+  .card-head { padding: 12px 12px 10px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .chip, .group, .kbtn, .copy { transition: border-color .12s, background-color .12s; }
+}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Master Kode Komoditas &amp; Kualitas SPKRT 2027</h1>
+      <span class="sub" id="stats">Memuat data…</span>
+    </div>
+    <div class="search">
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+        placeholder="Cari nama komoditas, merek/kualitas, atau kode (mis. beras ir 64, 0111001)"
+        aria-label="Cari komoditas, kualitas, atau kode">
+      <div class="hint"><button class="clear" id="clear" type="button" hidden>Hapus</button><span class="kbd">/</span></div>
+    </div>
+    <div class="chips" id="chips" role="toolbar" aria-label="Saring menurut kelompok"></div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="status">
+      <p id="summary" aria-live="polite"></p>
+      <label class="fmt" for="fmt">Format salin
+        <select id="fmt">
+          <option value="dot">01.1.1.001.001</option>
+          <option value="plain">0111001001</option>
+          <option value="sep">0111001-001</option>
+        </select>
+      </label>
+    </div>
+    <div id="out"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p id="source"></p>
+    <p>Buku 5 hanya memuat kode kelompok, subkelompok, kelas, komoditas, dan kualitas. Satuan standar tidak tercantum di buku ini.</p>
+    <p>Kode gabungan yang disalin adalah sambungan kolom (1)–(4) dan (6) dari buku. Nomor halaman mengikuti nomor cetak di buku. Halaman ini bukan aplikasi resmi BPS; selalu cocokkan dengan buku pedoman.</p>
+  </div>
+</footer>
+<div class="toast" id="toast" hidden></div>
+
+<!--DATA-->
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var LV = { G: "Kelompok", S: "Subkelompok", C: "Kelas" };
+  var PAGE_CARDS = 40, Q_PREVIEW = 12;
+
+  var D, ITEMS = [], HIER = {}, GROUPS = [];
+  var state = { q: "", kel: "", shown: PAGE_CARDS, open: {} };
+
+  function norm(s) {
+    return (" " + String(s).toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^A-Z0-9]+/g, " ").trim() + " ");
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function fmtNum(n) { return n.toLocaleString("id-ID"); }
+
+  function init(data) {
+    D = data;
+    D.hier.forEach(function (h) {
+      HIER[h[0] + h[1] + h[2]] = { kel: h[0], sub: h[1], kls: h[2], name: h[3], lv: h[4] };
+      if (h[4] === "G") GROUPS.push(h[0]);
+    });
+    ITEMS = D.items.map(function (r, idx) {
+      var code = r[0] + r[1] + r[2] + r[3];
+      var qs = r[7].map(function (q) { return { c: q[0], n: q[1], h: norm(q[1]) }; });
+      var it = {
+        idx: idx, kel: r[0], sub: r[1], kls: r[2], kom: r[3], name: r[4],
+        p0: r[5], p1: r[6], q: qs, flags: r[8], code: code, h: norm(r[4])
+      };
+      var dupc = {};
+      qs.forEach(function (q) { dupc[q.c] = (dupc[q.c] || 0) + 1; });
+      qs.forEach(function (q) { q.dup = dupc[q.c] > 1; });
+      var kelas = HIER[r[0] + r[1] + r[2]];
+      it.kh = norm(kelas ? kelas.name : "");
+      return it;
+    });
+    var nq = ITEMS.reduce(function (a, it) { return a + it.q.length; }, 0);
+    var count = { G: 0, S: 0, C: 0 };
+    D.hier.forEach(function (h) { count[h[4]]++; });
+    $("stats").textContent = count.G + " kelompok · " + count.S + " subkelompok · " + count.C +
+      " kelas · " + fmtNum(ITEMS.length) + " komoditas · " + fmtNum(nq) + " kualitas";
+    $("source").textContent = "Sumber: " + D.source + ".";
+    renderChips();
+    restorePrefs();
+    render();
+  }
+
+  function groupName(kel) { var h = HIER[kel + "00"]; return h ? h.name : kel; }
+
+  function renderChips() {
+    var html = '<button class="chip" type="button" data-kel="" aria-pressed="' + (state.kel === "") + '">Semua</button>';
+    GROUPS.forEach(function (g) {
+      html += '<button class="chip" type="button" data-kel="' + g + '" aria-pressed="' + (state.kel === g) +
+        '" title="' + esc(groupName(g)) + '"><b>' + g + "</b>" + esc(shortName(groupName(g))) + "</button>";
+    });
+    $("chips").innerHTML = html;
+  }
+  function shortName(n) {
+    var s = n.split(/,| DAN | \/ /)[0].trim();
+    return s.charAt(0) + s.slice(1).toLowerCase();
+  }
+
+  // ---------- search ----------
+  function parseCode(q) {
+    var t = q.trim();
+    if (!/^[0-9][0-9.\s\-]*$/.test(t)) return null;
+    var parts = t.split(/[.\s\-]+/).filter(Boolean);
+    var digits;
+    if (parts.length > 1) {
+      // Segmented input like 01.1.1.001.005: pad each part to its column width.
+      var widths = [2, 1, 1, 3, 3];
+      if (parts.length > 5) return null;
+      digits = parts.map(function (p, i) {
+        while (p.length < widths[i]) p = "0" + p;
+        return p;
+      }).join("");
+    } else {
+      digits = parts[0];
+    }
+    if (digits.length > 10) return null;
+    return digits;
+  }
+
+  function search() {
+    var q = state.q, res = [];
+    var pool = state.kel ? ITEMS.filter(function (it) { return it.kel === state.kel; }) : ITEMS;
+    var code = parseCode(q);
+    if (code) {
+      var kc = code.slice(0, 7), qc = code.slice(7);
+      pool.forEach(function (it) {
+        if (it.code.indexOf(kc) !== 0) return;
+        if (qc) {
+          var m = it.q.filter(function (x) { return x.c.indexOf(qc) === 0; });
+          if (m.length) res.push({ it: it, m: m, score: 0 });
+        } else {
+          res.push({ it: it, m: null, score: 0 });
+        }
+      });
+      return { mode: "code", res: res, tokens: [] };
+    }
+    var tokens = norm(q).trim().split(" ").filter(Boolean);
+    if (!tokens.length) return null;
+    var has = function (hay, t) { return hay.indexOf(" " + t) !== -1; };
+    pool.forEach(function (it) {
+      var allName = tokens.every(function (t) { return has(it.h, t); });
+      if (allName) {
+        var exact = it.h === " " + tokens.join(" ") + " ";
+        res.push({ it: it, m: null, score: exact ? 0 : (it.h.indexOf(" " + tokens[0]) === 0 ? 1 : 2) });
+        return;
+      }
+      var ctx = it.h + it.kh;
+      var m = it.q.filter(function (x) {
+        var any = false;
+        for (var i = 0; i < tokens.length; i++) {
+          var inQ = has(x.h, tokens[i]);
+          if (!inQ && !has(ctx, tokens[i])) return false;
+          if (inQ) any = true;
+        }
+        return any;
+      });
+      if (m.length) {
+        // Prefer commodities whose own name carries part of the query.
+        var nameHits = tokens.filter(function (t) { return has(it.h, t); }).length;
+        res.push({ it: it, m: m, score: nameHits ? 3 : 4 });
+        return;
+      }
+      if (tokens.every(function (t) { return has(it.kh, t); })) {
+        res.push({ it: it, m: null, score: 5 });
+      }
+    });
+    res.sort(function (a, b) { return a.score - b.score || a.it.idx - b.it.idx; });
+    return { mode: "text", res: res, tokens: tokens };
+  }
+
+  function hl(text, tokens) {
+    if (!tokens.length) return esc(text);
+    var out = "", i = 0, up = text.toUpperCase();
+    while (i < text.length) {
+      var hit = 0;
+      var atWord = i === 0 || !/[A-Z0-9]/.test(up.charAt(i - 1));
+      if (atWord && /[A-Z0-9]/.test(up.charAt(i))) {
+        for (var k = 0; k < tokens.length; k++) {
+          if (up.substr(i, tokens[k].length) === tokens[k] && tokens[k].length > hit) hit = tokens[k].length;
+        }
+      }
+      if (hit) { out += "<mark>" + esc(text.substr(i, hit)) + "</mark>"; i += hit; }
+      else { out += esc(text.charAt(i)); i++; }
+    }
+    return out;
+  }
+
+  // ---------- render ----------
+  function boxes(s) {
+    return '<span class="cb">' + s.split("").map(function (c) { return "<i>" + c + "</i>"; }).join("") + "</span>";
+  }
+  function codeBoxes(it) {
+    return '<span class="code" aria-label="Kode ' + it.kel + "." + it.sub + "." + it.kls + "." + it.kom + '">' +
+      boxes(it.kel) + boxes(it.sub) + boxes(it.kls) + boxes(it.kom) + "</span>";
+  }
+  function fullCode(it, qc) {
+    var f = state.fmt || "dot";
+    if (f === "plain") return it.code + qc;
+    if (f === "sep") return it.code + "-" + qc;
+    return [it.kel, it.sub, it.kls, it.kom, qc].join(".");
+  }
+  function pages(it) { return it.p0 === it.p1 ? "hal. " + it.p0 : "hal. " + it.p0 + "–" + it.p1; }
+
+  function card(r, tokens) {
+    var it = r.it, sub = HIER[it.kel + it.sub + "0"], kls = HIER[it.kel + it.sub + it.kls];
+    var key = it.idx, open = state.open[key];
+    var list = (r.m && !open) ? r.m : it.q;
+    var limit = (!r.m && !open) ? Q_PREVIEW : list.length;
+    var flags = "";
+    if (it.flags.indexOf("dupkom") !== -1) flags += '<span class="flag">Kode komoditas ini dipakai dua kali di buku</span>';
+    if (it.flags.indexOf("dupq") !== -1) flags += '<span class="flag">Ada kode kualitas ganda di buku</span>';
+    var h = '<article class="card"><div class="card-head"><div class="row1">' + codeBoxes(it) +
+      "<h2>" + hl(it.name, tokens) + "</h2></div>" +
+      '<div class="crumb"><button type="button" data-kel="' + it.kel + '">' + it.kel + " " + esc(groupName(it.kel)) +
+      '</button><span class="sep">›</span><span>' + esc(sub ? sub.name : "") + '</span><span class="sep">›</span><span>' +
+      hl(kls ? kls.name : "", r.score === 5 ? tokens : []) + "</span></div>" +
+      '<div class="meta"><span>' + fmtNum(it.q.length) + " kualitas</span><span>" + pages(it) + "</span>" + flags + "</div></div>";
+    h += '<table class="qtable"><tbody>';
+    for (var i = 0; i < Math.min(limit, list.length); i++) {
+      var q = list[i];
+      h += "<tr" + (q.dup ? ' class="dup" title="Kode kualitas ini muncul lebih dari sekali di buku"' : "") +
+        '><td class="qc">' + q.c + '</td><td class="qn">' + hl(q.n, tokens) +
+        '</td><td class="qa"><button type="button" class="copy" data-copy="' + esc(fullCode(it, q.c)) +
+        '" aria-label="Salin kode ' + esc(fullCode(it, q.c)) + '">Salin</button></td></tr>';
+    }
+    h += "</tbody></table>";
+    if (r.m && !open && r.m.length < it.q.length) {
+      h += '<button type="button" class="more" data-open="' + key + '">' + fmtNum(r.m.length) + " dari " +
+        fmtNum(it.q.length) + " kualitas cocok · Tampilkan semua</button>";
+    } else if (!r.m && !open && it.q.length > Q_PREVIEW) {
+      h += '<button type="button" class="more" data-open="' + key + '">Tampilkan semua ' + fmtNum(it.q.length) + " kualitas</button>";
+    } else if (open && (r.m ? r.m.length < it.q.length : it.q.length > Q_PREVIEW)) {
+      h += '<button type="button" class="more" data-close="' + key + '">Ringkas</button>';
+    }
+    return h + "</article>";
+  }
+
+  function render() {
+    var out = $("out");
+    $("clear").hidden = !state.q;
+    Array.prototype.forEach.call($("chips").children, function (b) {
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-kel") === state.kel));
+    });
+    var s = state.q.trim() ? search() : null;
+    if (!s) { renderBrowse(out); return; }
+    var where = state.kel ? " di kelompok " + state.kel : "";
+    if (!s.res.length) {
+      $("summary").innerHTML = "Tidak ada hasil" + esc(where) + ".";
+      out.innerHTML = '<div class="empty"><strong>Tidak ditemukan "' + esc(state.q) + '"' + esc(where) + ".</strong> " +
+        "Coba kata yang lebih pendek (mis. <em>indom</em> untuk Indomie), hapus saringan kelompok, " +
+        "atau cari dengan kode segmen seperti 01.1.1.001.</div>";
+      return;
+    }
+    var nq = s.res.reduce(function (a, r) { return a + (r.m ? r.m.length : 0); }, 0);
+    $("summary").innerHTML = "<strong>" + fmtNum(s.res.length) + "</strong> komoditas" +
+      (nq ? " · <strong>" + fmtNum(nq) + "</strong> kualitas cocok" : "") + esc(where);
+    var html = '<div style="display:grid;gap:12px">';
+    s.res.slice(0, state.shown).forEach(function (r) { html += card(r, s.tokens); });
+    html += "</div>";
+    if (s.res.length > state.shown) {
+      html += '<button type="button" class="loadmore" id="loadmore" style="margin-top:12px;width:100%">Tampilkan ' +
+        fmtNum(Math.min(PAGE_CARDS, s.res.length - state.shown)) + " komoditas lagi (" +
+        fmtNum(s.res.length - state.shown) + " tersisa)</button>";
+    }
+    out.innerHTML = html;
+  }
+
+  function renderBrowse(out) {
+    if (!state.kel) {
+      $("summary").innerHTML = "Ketik untuk mencari, atau pilih kelompok untuk menjelajah.";
+      var html = '<div class="empty" style="margin-bottom:14px"><ul class="tips">' +
+        '<li>Nama komoditas: <button type="button" data-try="minyak goreng"><code>minyak goreng</code></button>, <button type="button" data-try="kerudung"><code>kerudung</code></button></li>' +
+        '<li>Merek atau kualitas, boleh digabung dengan komoditas: <button type="button" data-try="beras ir 64"><code>beras ir 64</code></button>, <button type="button" data-try="indomie"><code>indomie</code></button></li>' +
+        '<li>Kode: <button type="button" data-try="0111001"><code>0111001</code></button>, <button type="button" data-try="06.2.2.005"><code>06.2.2.005</code></button>, atau sampai kualitas <button type="button" data-try="01.1.1.001.161"><code>01.1.1.001.161</code></button></li>' +
+        "</ul></div><div class=\"groups\">";
+      GROUPS.forEach(function (g) {
+        var its = ITEMS.filter(function (it) { return it.kel === g; });
+        var nq = its.reduce(function (a, it) { return a + it.q.length; }, 0);
+        html += '<button type="button" class="group" data-kel="' + g + '"><span class="code">' + boxes(g) +
+          '</span><span class="gname">' + esc(groupName(g)) + '</span><span class="gnum">' + fmtNum(its.length) +
+          " komoditas · " + fmtNum(nq) + " kualitas</span></button>";
+      });
+      out.innerHTML = html + "</div>";
+      return;
+    }
+    var kel = state.kel, html2 = '<div class="tree">';
+    var its = ITEMS.filter(function (it) { return it.kel === kel; });
+    $("summary").innerHTML = "Kelompok <strong>" + kel + " " + esc(groupName(kel)) + "</strong> · " + fmtNum(its.length) + " komoditas";
+    D.hier.forEach(function (h) {
+      if (h[0] !== kel || h[4] !== "S") return;
+      html2 += "<section><h3>" + '<span class="code">' + boxes(h[0]) + boxes(h[1]) + "</span>" + esc(h[3]) + "</h3>";
+      D.hier.forEach(function (c) {
+        if (c[0] !== kel || c[1] !== h[1] || c[4] !== "C") return;
+        var ks = its.filter(function (it) { return it.sub === c[1] && it.kls === c[2]; });
+        html2 += '<h4><span class="code">' + boxes(c[0]) + boxes(c[1]) + boxes(c[2]) + "</span>" + esc(c[3]) + "</h4><div class=\"klist\">";
+        ks.forEach(function (it) {
+          html2 += '<button type="button" class="kbtn" data-try="' + it.kel + "." + it.sub + "." + it.kls + "." + it.kom +
+            '"><small>' + it.kom + "</small>" + esc(it.name) + "</button>";
+        });
+        html2 += "</div>";
+      });
+      html2 += "</section>";
+    });
+    out.innerHTML = html2 + "</div>";
+  }
+
+  // ---------- events ----------
+  var timer;
+  $("q").addEventListener("input", function (e) {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      state.q = e.target.value; state.shown = PAGE_CARDS; state.open = {}; render();
+    }, 120);
+  });
+  function setQuery(v) {
+    $("q").value = v; state.q = v; state.shown = PAGE_CARDS; state.open = {}; render();
+    window.scrollTo(0, 0);
+  }
+  $("clear").addEventListener("click", function () { setQuery(""); $("q").focus(); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "/" && document.activeElement !== $("q")) { e.preventDefault(); $("q").focus(); $("q").select(); }
+    else if (e.key === "Escape" && document.activeElement === $("q")) { setQuery(""); }
+  });
+  $("fmt").addEventListener("change", function (e) {
+    state.fmt = e.target.value;
+    try { localStorage.setItem("spkrt.fmt", state.fmt); } catch (_) {}
+    render();
+  });
+  function restorePrefs() {
+    try {
+      var f = localStorage.getItem("spkrt.fmt");
+      if (f) { state.fmt = f; $("fmt").value = f; }
+    } catch (_) {}
+  }
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    if (b.hasAttribute("data-kel")) {
+      var k = b.getAttribute("data-kel");
+      state.kel = (b.classList.contains("chip") && state.kel === k) ? "" : k;
+      if (b.classList.contains("group") || b.closest(".crumb")) { $("q").value = ""; state.q = ""; }
+      state.shown = PAGE_CARDS; state.open = {}; render();
+      if (!b.classList.contains("chip")) window.scrollTo(0, 0);
+    } else if (b.hasAttribute("data-try")) {
+      setQuery(b.getAttribute("data-try"));
+    } else if (b.hasAttribute("data-open")) {
+      state.open[b.getAttribute("data-open")] = true; render();
+    } else if (b.hasAttribute("data-close")) {
+      delete state.open[b.getAttribute("data-close")]; render();
+    } else if (b.id === "loadmore") {
+      state.shown += PAGE_CARDS; render();
+    } else if (b.hasAttribute("data-copy")) {
+      copy(b.getAttribute("data-copy"), b);
+    }
+  });
+
+  var toastT;
+  function toast(msg) {
+    var t = $("toast"); t.textContent = msg; t.hidden = false;
+    clearTimeout(toastT); toastT = setTimeout(function () { t.hidden = true; }, 1800);
+  }
+  function copy(text, btn) {
+    var ok = function () {
+      btn.classList.add("done"); btn.textContent = "Tersalin";
+      setTimeout(function () { btn.classList.remove("done"); btn.textContent = "Salin"; }, 1400);
+      toast("Kode " + text + " disalin");
+    };
+    var fallback = function () {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      var done = false;
+      try { done = document.execCommand("copy"); } catch (_) {}
+      document.body.removeChild(ta);
+      if (done) ok(); else toast("Tidak bisa menyalin otomatis. Kode: " + text);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(ok, fallback);
+    } else fallback();
+  }
+
+  if (window.__SPKRT__) init(window.__SPKRT__);
+  else fetch("komoditas.json").then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then(init).catch(function () {
+    $("stats").textContent = "";
+    $("out").innerHTML = '<div class="empty"><strong>Data kode gagal dimuat.</strong> Muat ulang halaman. ' +
+      "Jika membuka dari folder lokal, pakai berkas index.html yang berisi data.</div>";
+  });
+})();
+</script>

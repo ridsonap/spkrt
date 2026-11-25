@@ -1,0 +1,5 @@
+dist/
+.playwright-mcp/
+__pycache__/
+*.pdf
+.DS_Store
