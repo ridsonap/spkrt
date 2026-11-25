@@ -17,7 +17,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 PAGE_OFFSET = 8  # printed page = PDF page - 8
 
 
-def build_data(rows):
+def build_data(rows, satuan):
     groups = collections.OrderedDict()
     for page, kel, sub, kls, kom, nama, kq, nq, level in rows:
         if level != "KOMODITAS":
@@ -41,10 +41,18 @@ def build_data(rows):
         qcodes = [q[0] for q in g["q"]]
         if len(set(qcodes)) != len(qcodes):
             flags.append("dupq")
+        unit = satuan.get(kel + sub + kls + kom)
         items.append([kel, sub, kls, kom, nama,
-                      g["p0"] - PAGE_OFFSET, g["p1"] - PAGE_OFFSET, g["q"], flags])
+                      g["p0"] - PAGE_OFFSET, g["p1"] - PAGE_OFFSET, g["q"], flags,
+                      [unit[0], unit[2]] if unit else None])
+
+    known = {"".join(k[:4]) for k in groups}
+    orphans = sorted(set(satuan) - known)
+    if orphans:
+        raise SystemExit(f"satuan codes missing from Buku 5: {orphans}")
     return {
         "source": "Buku 5 Master Kode Komoditas dan Kualitas SPKRT 2027 (versi 2026.10.23)",
+        "source_satuan": "Kuesioner VPKRT27-LK (versi 2026.10.21), kolom [14] Satuan Standar",
         "hier": hier,
         "items": items,
     }
@@ -52,7 +60,8 @@ def build_data(rows):
 
 def main():
     rows = json.loads((ROOT / "data/rows.json").read_text())
-    data = build_data(rows)
+    satuan = json.loads((ROOT / "data/satuan.json").read_text())
+    data = build_data(rows, satuan)
     payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     (ROOT / "data/komoditas.json").write_text(payload)
 

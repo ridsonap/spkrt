@@ -1,0 +1,3722 @@
+{
+"0111001": [
+"Kilogram",
+"Beras",
+2
+],
+"0111002": [
+"Kilogram",
+"Beras Jagung",
+2
+],
+"0111003": [
+"Kilogram",
+"Jagung Pipilan",
+2
+],
+"0111004": [
+"Kilogram",
+"Beras Ketan",
+2
+],
+"0111005": [
+"Kilogram",
+"Beras Merah",
+2
+],
+"0111006": [
+"Kilogram",
+"Beras Hitam",
+2
+],
+"0111007": [
+"Kilogram",
+"Tepung Beras",
+2
+],
+"0111008": [
+"Kilogram",
+"Tepung Terigu",
+2
+],
+"0111009": [
+"Kilogram",
+"Tepung Jagung (Maizena)",
+2
+],
+"0111010": [
+"Kilogram",
+"Tepung Gaplek (Tiwul)",
+2
+],
+"0111011": [
+"Kilogram",
+"Tepung Ketan",
+2
+],
+"0111013": [
+"Bks……",
+"Biskuit",
+2
+],
+"0111014": [
+"Ons",
+"Keripik (Mentah)",
+2
+],
+"0111015": [
+"Ons",
+"Kerupuk Ikan (Mentah)",
+2
+],
+"0111016": [
+"Ons",
+"Kerupuk Udang (Mentah)",
+2
+],
+"0111017": [
+"Ons",
+"Makanan Ringan/Snack",
+2
+],
+"0111018": [
+"Buah",
+"Roti Manis",
+2
+],
+"0111019": [
+"Bungkus",
+"Roti Tawar",
+2
+],
+"0111020": [
+"Ons",
+"Kerupuk (Mentah)",
+4
+],
+"0111021": [
+"Bungkus",
+"Wafer",
+4
+],
+"0111022": [
+"Papan",
+"Sagu Lempeng",
+4
+],
+"0111023": [
+"Ons",
+"Kerupuk Kulit (Mentah)",
+4
+],
+"0111024": [
+"Buah",
+"Kue Kering",
+4
+],
+"0111025": [
+"Buah",
+"Donat",
+4
+],
+"0111026": [
+"Buah",
+"Bika Ambon",
+4
+],
+"0111027": [
+"Buah",
+"Kue Bolu/Tart",
+4
+],
+"0111028": [
+"Buah",
+"Roti Paung",
+4
+],
+"0111029": [
+"Ons",
+"Emping (Siap Makan)",
+4
+],
+"0111032": [
+"Gram",
+"Sereal/Havermoot",
+4
+],
+"0111035": [
+"Bungkus",
+"Bubur Instant",
+4
+],
+"0111036": [
+"Buah",
+"Brownies",
+4
+],
+"0111037": [
+"Buah",
+"Pie Susu",
+4
+],
+"0111038": [
+"Ons",
+"Bihun",
+4
+],
+"0111039": [
+"Kilogram",
+"Mie Basah",
+4
+],
+"0111040": [
+"Ons",
+"Soun",
+4
+],
+"0111041": [
+"Bks......",
+"Mie Kering Instant",
+4
+],
+"0111042": [
+"Kilogram",
+"Produk Pasta Mentah",
+4
+],
+"0111043": [
+"Kilogram",
+"Mie Kering",
+4
+],
+"0111044": [
+"Ons",
+"Oatmeal",
+6
+],
+"0111045": [
+"Ons",
+"Granola",
+6
+],
+"0111046": [
+"Buah",
+"Sourdough",
+6
+],
+"0112001": [
+"Kilogram",
+"Ayam Hidup",
+6
+],
+"0112002": [
+"Kilogram",
+"Bebek / Itik Hidup",
+6
+],
+"0112003": [
+"Kilogram",
+"Daging Ayam Ras",
+6
+],
+"0112004": [
+"Kilogram",
+"Daging Babi",
+6
+],
+"0112005": [
+"Kilogram",
+"Daging Kambing",
+6
+],
+"0112006": [
+"Kilogram",
+"Daging Kerbau",
+6
+],
+"0112007": [
+"Kilogram",
+"Daging Rusa",
+8
+],
+"0112008": [
+"Kilogram",
+"Daging Sapi",
+8
+],
+"0112009": [
+"Kilogram",
+"Daging Bebek",
+8
+],
+"0112012": [
+"Kilogram",
+"Daging Kuda",
+8
+],
+"0112019": [
+"Kilogram",
+"Dendeng (Daging Mentah)",
+8
+],
+"0112020": [
+"Kilogram",
+"Daging Se'I/Asap",
+8
+],
+"0112021": [
+"Kilogram",
+"Rampela Hati Ayam",
+8
+],
+"0112022": [
+"Kilogram",
+"Tulang Sapi",
+8
+],
+"0112024": [
+"Kilogram",
+"Bakso (Mentah)",
+8
+],
+"0112025": [
+"Kilogram",
+"Daging Dalam Kaleng",
+8
+],
+"0112026": [
+"Kilogram",
+"Sosis",
+8
+],
+"0112027": [
+"Kilogram",
+"Nugget",
+8
+],
+"0112028": [
+"Kilogram",
+"Rolade/Gelantin",
+8
+],
+"0112029": [
+"Kilogram",
+"Daging Burger",
+8
+],
+"0113001": [
+"Kilogram",
+"Ikan Bandeng/Ikan Bolu",
+10
+],
+"0113002": [
+"Kilogram",
+"Ikan Baronang",
+10
+],
+"0113003": [
+"Kilogram",
+"Ikan Baung",
+10
+],
+"0113004": [
+"Kilogram",
+"Ikan Bawal",
+10
+],
+"0113005": [
+"Kilogram",
+"Ikan Belanak",
+10
+],
+"0113006": [
+"Kilogram",
+"Belut",
+10
+],
+"0113007": [
+"Kilogram",
+"Ikan Biawan",
+10
+],
+"0113008": [
+"Kilogram",
+"Ikan Biji Nangka/Ikan Kuniran",
+10
+],
+"0113009": [
+"Kilogram",
+"Ikan Bubara",
+10
+],
+"0113010": [
+"Kilogram",
+"Ikan Cakalang/Ikan Sisik",
+10
+],
+"0113011": [
+"Kilogram",
+"Ikan Cincara",
+10
+],
+"0113012": [
+"Kilogram",
+"Ikan Deho",
+10
+],
+"0113013": [
+"Kilogram",
+"Ikan Dencis",
+10
+],
+"0113014": [
+"Kilogram",
+"Ikan Ekor Kuning",
+10
+],
+"0113015": [
+"Kilogram",
+"Ikan Gabus",
+10
+],
+"0113016": [
+"Kilogram",
+"Ikan Gebur",
+12
+],
+"0113017": [
+"Kilogram",
+"Ikan Gurame",
+12
+],
+"0113018": [
+"Kilogram",
+"Ikan Jengki",
+12
+],
+"0113019": [
+"Kilogram",
+"Ikan Kakap Merah",
+12
+],
+"0113020": [
+"Kilogram",
+"Ikan Kakap Putih",
+12
+],
+"0113021": [
+"Kilogram",
+"Ikan Kapar",
+12
+],
+"0113022": [
+"Kilogram",
+"Ikan Katamba",
+12
+],
+"0113023": [
+"Kilogram",
+"Ikan Kawalina",
+12
+],
+"0113024": [
+"Kilogram",
+"Ikan Kembung/Ikan Gembung/Ikan Banyar/Ikan Gembolo/Ikan Aso-Aso",
+12
+],
+"0113025": [
+"Kilogram",
+"Ikan Kerapu/Ikan Garopa",
+12
+],
+"0113026": [
+"Kilogram",
+"Ikan Lais",
+12
+],
+"0113027": [
+"Kilogram",
+"Ikan Lambak",
+12
+],
+"0113028": [
+"Kilogram",
+"Ikan Lamuru",
+12
+],
+"0113029": [
+"Kilogram",
+"Ikan Layang/Ikan Benggol",
+12
+],
+"0113030": [
+"Kilogram",
+"Ikan Lele",
+12
+],
+"0113031": [
+"Kilogram",
+"Ikan Malalugis/Ikan Sorihi",
+12
+],
+"0113032": [
+"Kilogram",
+"Ikan Manyung/Ikan Mayung",
+12
+],
+"0113033": [
+"Kilogram",
+"Ikan Mas",
+12
+],
+"0113034": [
+"Kilogram",
+"Ikan Merah",
+12
+],
+"0113035": [
+"Kilogram",
+"Ikan Mujair",
+14
+],
+"0113036": [
+"Kilogram",
+"Ikan Nila",
+14
+],
+"0113037": [
+"Kilogram",
+"Ikan Papuyu",
+14
+],
+"0113038": [
+"Kilogram",
+"Ikan Pari",
+14
+],
+"0113039": [
+"Kilogram",
+"Ikan Patin",
+14
+],
+"0113040": [
+"Kilogram",
+"Ikan Salam",
+14
+],
+"0113041": [
+"Kilogram",
+"Ikan Saluang",
+14
+],
+"0113042": [
+"Kilogram",
+"Ikan Selangat",
+14
+],
+"0113043": [
+"Kilogram",
+"Ikan Selar/Ikan Tude",
+14
+],
+"0113044": [
+"Kilogram",
+"Ikan Senangin",
+14
+],
+"0113045": [
+"Kilogram",
+"Ikan Sepat Siam",
+14
+],
+"0113046": [
+"Kilogram",
+"Ikan Serai",
+14
+],
+"0113047": [
+"Kilogram",
+"Ikan Sunglir/Ikan Sungli",
+14
+],
+"0113048": [
+"Kilogram",
+"Ikan Tapah",
+14
+],
+"0113049": [
+"Kilogram",
+"Ikan Tembang",
+14
+],
+"0113050": [
+"Kilogram",
+"Ikan Tenggiri",
+14
+],
+"0113051": [
+"Kilogram",
+"Ikan Teri",
+14
+],
+"0113052": [
+"Kilogram",
+"Ikan Teter",
+14
+],
+"0113053": [
+"Kilogram",
+"Ikan Tongkol/Ikan Ambu-Ambu",
+14
+],
+"0113054": [
+"Kilogram",
+"Ikan Trakulu",
+14
+],
+"0113055": [
+"Kilogram",
+"Ikan Tuna",
+16
+],
+"0113056": [
+"Kilogram",
+"Ikan Lolosi",
+16
+],
+"0113057": [
+"Kilogram",
+"Ikan Rambe",
+16
+],
+"0113058": [
+"Kilogram",
+"Ikan Nike",
+16
+],
+"0113059": [
+"Kilogram",
+"Ikan Singkur",
+16
+],
+"0113060": [
+"Kilogram",
+"Ikan Kerisi",
+16
+],
+"0113061": [
+"Kilogram",
+"Ikan Layur/Ikan Beledang",
+16
+],
+"0113062": [
+"Kilogram",
+"Ikan Simba",
+16
+],
+"0113063": [
+"Kilogram",
+"Ikan Kepala Batu",
+16
+],
+"0113064": [
+"Kilogram",
+"Ikan Kape-Kape",
+16
+],
+"0113065": [
+"Kilogram",
+"Ikan Pantau",
+16
+],
+"0113066": [
+"Kilogram",
+"Ikan Lidah",
+16
+],
+"0113067": [
+"Kilogram",
+"Ikan Gulama",
+16
+],
+"0113068": [
+"Kilogram",
+"Ikan Tajak-Tajak",
+16
+],
+"0113069": [
+"Kilogram",
+"Ikan Mumar",
+16
+],
+"0113070": [
+"Kilogram",
+"Ikan Julung Segar/Ikan Nibe",
+16
+],
+"0113071": [
+"Kilogram",
+"Ikan Caru",
+16
+],
+"0113072": [
+"Kilogram",
+"Ikan Bulat",
+16
+],
+"0113073": [
+"Kilogram",
+"Ikan Mernying",
+16
+],
+"0113074": [
+"Kilogram",
+"Ikan Simbula",
+16
+],
+"0113075": [
+"Kilogram",
+"Ikan Oci",
+18
+],
+"0113076": [
+"Kilogram",
+"Ikan Paha",
+18
+],
+"0113077": [
+"Kilogram",
+"Ikan Peda",
+18
+],
+"0113078": [
+"Kilogram",
+"Ikan Tindarung",
+18
+],
+"0113079": [
+"Kilogram",
+"Ikan Seminyak",
+18
+],
+"0113080": [
+"Kilogram",
+"Ikan Kuwe/Ikan Cepa",
+18
+],
+"0113081": [
+"Kilogram",
+"Ikan Kaci",
+18
+],
+"0113082": [
+"Kilogram",
+"Ikan Tamban",
+18
+],
+"0113083": [
+"Kilogram",
+"Ikan Mata Besar",
+18
+],
+"0113084": [
+"Kilogram",
+"Ikan Capa",
+18
+],
+"0113085": [
+"Kilogram",
+"Ikan Layaran",
+18
+],
+"0113086": [
+"Kilogram",
+"Ikan Pencaran",
+18
+],
+"0113087": [
+"Kilogram",
+"Ikan Balida",
+18
+],
+"0113088": [
+"Kilogram",
+"Ikan Balige",
+18
+],
+"0113089": [
+"Kilogram",
+"Ikan Barudu",
+18
+],
+"0113090": [
+"Kilogram",
+"Ikan Binangin",
+18
+],
+"0113091": [
+"Kilogram",
+"Ikan Campur",
+18
+],
+"0113092": [
+"Kilogram",
+"Ikan Terbang",
+18
+],
+"0113093": [
+"Kilogram",
+"Ikan Jelawat",
+18
+],
+"0113094": [
+"Kilogram",
+"Ikan Karper",
+18
+],
+"0113095": [
+"Kilogram",
+"Ikan Kombo",
+20
+],
+"0113096": [
+"Kilogram",
+"Ikan Limbat",
+20
+],
+"0113097": [
+"Kilogram",
+"Ikan Lompa",
+20
+],
+"0113098": [
+"Kilogram",
+"Ikan Menangin",
+20
+],
+"0113099": [
+"Kilogram",
+"Ikan Rapo-Rapo",
+20
+],
+"0113100": [
+"Kilogram",
+"Ikan Tambak",
+20
+],
+"0113101": [
+"Kilogram",
+"Ikan Tawes",
+20
+],
+"0113102": [
+"Kilogram",
+"Ikan Tembakang",
+20
+],
+"0113103": [
+"Kilogram",
+"Ikan Hapau",
+20
+],
+"0113104": [
+"Kilogram",
+"Ikan Malem",
+20
+],
+"0113105": [
+"Kilogram",
+"Ikan Kepetek/Petek/ Peperek",
+20
+],
+"0113106": [
+"Kilogram",
+"Ikan Kelotok",
+20
+],
+"0113107": [
+"Kilogram",
+"Ikan Cabe-Cabe",
+20
+],
+"0113108": [
+"Kilogram",
+"Ikan Gaben",
+20
+],
+"0113109": [
+"Kilogram",
+"Ikan Raja",
+20
+],
+"0113110": [
+"Kilogram",
+"Ikan Anak Sala",
+20
+],
+"0113111": [
+"Kilogram",
+"Ikan Manori",
+20
+],
+"0113112": [
+"Kilogram",
+"Ikan Singapur",
+20
+],
+"0113113": [
+"Kilogram",
+"Ikan Kresek",
+20
+],
+"0113114": [
+"Kilogram",
+"Ikan Pelata",
+20
+],
+"0113115": [
+"Kilogram",
+"Ikan Anak Tandeman",
+22
+],
+"0113116": [
+"Kilogram",
+"Ikan Siput/Keong",
+22
+],
+"0113117": [
+"Kilogram",
+"Ikan Ayam-Ayam",
+22
+],
+"0113118": [
+"Kilogram",
+"Ikan Garing",
+22
+],
+"0113119": [
+"Kilogram",
+"Ikan Nilam",
+22
+],
+"0113120": [
+"Kilogram",
+"Ikan Otek",
+22
+],
+"0113121": [
+"Kilogram",
+"Ikan Roa",
+22
+],
+"0113122": [
+"Ons",
+"Ikan Rotan",
+22
+],
+"0113123": [
+"Kilogram",
+"Ikan Tulang Nibung",
+22
+],
+"0113124": [
+"Kilogram",
+"Ikan Motan",
+22
+],
+"0113125": [
+"Kilogram",
+"Ikan Arut",
+22
+],
+"0113126": [
+"Kilogram",
+"Ikan Make-Make",
+22
+],
+"0113127": [
+"Kilogram",
+"Ikan Kacangan",
+22
+],
+"0113128": [
+"Kilogram",
+"Ikan Montok",
+22
+],
+"0113129": [
+"Kilogram",
+"Ikan Dori",
+22
+],
+"0113130": [
+"Kilogram",
+"Ikan Salmon",
+22
+],
+"0113131": [
+"Kilogram",
+"Ikan Kerong-Kerong",
+22
+],
+"0113132": [
+"Kilogram",
+"Ikan Hiu",
+22
+],
+"0113133": [
+"Kilogram",
+"Ikan Todak/Marlin",
+22
+],
+"0113134": [
+"Kilogram",
+"Ikan Kacang Kacangan",
+22
+],
+"0113150": [
+"Kilogram",
+"Ikan Bulu Ayam",
+24
+],
+"0113155": [
+"Kilogram",
+"Ikan Sebelah/Lidah/Sisa Nabi",
+24
+],
+"0113156": [
+"Kilogram",
+"Ikan Selayang",
+24
+],
+"0113157": [
+"Kilogram",
+"Ikan Wader",
+24
+],
+"0113163": [
+"Kilogram",
+"Ikan Sembilang",
+24
+],
+"0113164": [
+"Kilogram",
+"Ikan Tete",
+24
+],
+"0113160": [
+"Kilogram",
+"Ikan Maco",
+24
+],
+"0113171": [
+"Kilogram",
+"Ikan Cucut",
+24
+],
+"0113215": [
+"Kilogram",
+"Ikan Bleberan/Kresek",
+24
+],
+"0113220": [
+"Ons",
+"Ikan Asin Bawal",
+24
+],
+"0113221": [
+"Ons",
+"Ikan Asin Biawan",
+24
+],
+"0113222": [
+"Ons",
+"Ikan Asin Biji Nangka",
+24
+],
+"0113223": [
+"Ons",
+"Ikan Asin Bulu Ayam",
+24
+],
+"0113224": [
+"Ons",
+"Ikan Asin Gabus",
+24
+],
+"0113225": [
+"Ons",
+"Ikan Asin Belah",
+24
+],
+"0113226": [
+"Ons",
+"Ikan Asin Telang",
+24
+],
+"0113227": [
+"Ons",
+"Ikan Asin Campur/Sampah",
+24
+],
+"0113228": [
+"Ons",
+"Ikan Dalam Kaleng",
+24
+],
+"0113229": [
+"Ons",
+"Ikan Asin Kayu",
+24
+],
+"0113230": [
+"Ons",
+"Ikan Asin Keranjang",
+24
+],
+"0113231": [
+"Ons",
+"Ikan Asin Katamba",
+26
+],
+"0113232": [
+"Ons",
+"Ikan Asin Kepala Batu",
+26
+],
+"0113233": [
+"Ons",
+"Ikan Asin Lais",
+26
+],
+"0113234": [
+"Ons",
+"Ikan Asin Layur",
+26
+],
+"0113235": [
+"Ons",
+"Ikan Asin Nike/Penja",
+26
+],
+"0113236": [
+"Ons",
+"Ikan Asin Peda",
+26
+],
+"0113237": [
+"Ons",
+"Pindang Asin",
+26
+],
+"0113238": [
+"Ons",
+"Ikan Asin Selar",
+26
+],
+"0113239": [
+"Ons",
+"Ikan Asin Tenggiri",
+26
+],
+"0113240": [
+"Ons",
+"Ikan Asin Teri",
+26
+],
+"0113241": [
+"Ons",
+"Ikan Asin Sepat",
+26
+],
+"0113242": [
+"Ons",
+"Ikan Panggang/Mangut",
+26
+],
+"0113243": [
+"Ons",
+"Ikan Asin Dencis",
+26
+],
+"0113244": [
+"Ons",
+"Ikan Sale/Salai",
+26
+],
+"0113245": [
+"Ons",
+"Ikan Asin Lidah",
+26
+],
+"0113246": [
+"Ons",
+"Ikan Asap",
+26
+],
+"0113247": [
+"Ons",
+"Ikan Asin Lemuru",
+26
+],
+"0113248": [
+"Ons",
+"Ikan Asin Roa",
+26
+],
+"0113249": [
+"Ons",
+"Ikan Asin Kerapu",
+26
+],
+"0113250": [
+"Ons",
+"Bandeng Diawetkan",
+26
+],
+"0113251": [
+"Ons",
+"Cakalang Diawetkan",
+28
+],
+"0113252": [
+"Ons",
+"Ekor Kuning Diawetkan",
+28
+],
+"0113253": [
+"Ons",
+"Kembung Diawetkan",
+28
+],
+"0113254": [
+"Ons",
+"Tongkol Diawetkan",
+28
+],
+"0113255": [
+"Ons",
+"Salem Diawetkan",
+28
+],
+"0113256": [
+"Ons",
+"Ikan Asin Balur",
+28
+],
+"0113257": [
+"Ons",
+"Ikan Asin Bambangan",
+28
+],
+"0113258": [
+"Ons",
+"Ikan Asin Baung",
+28
+],
+"0113259": [
+"Ons",
+"Ikan Asin Galafea",
+28
+],
+"0113260": [
+"Ons",
+"Ikan Asin Gereh Petek",
+28
+],
+"0113261": [
+"Ons",
+"Ikan Asin Putih",
+28
+],
+"0113262": [
+"Ons",
+"Ikan Asin Keresek",
+28
+],
+"0113263": [
+"Ons",
+"Ikan Asin Jafi",
+28
+],
+"0113264": [
+"Ons",
+"Ikan Asin Jambal Roti",
+28
+],
+"0113265": [
+"Ons",
+"Ikan Asin Julung Kering Asap",
+28
+],
+"0113266": [
+"Ons",
+"Ikan Asin Kakap",
+28
+],
+"0113267": [
+"Ons",
+"Ikan Asin Ketambak",
+28
+],
+"0113268": [
+"Ons",
+"Ikan Asin Menangin",
+28
+],
+"0113269": [
+"Ons",
+"Ikan Asin Pari",
+28
+],
+"0113270": [
+"Ons",
+"Ikan Asin Pulo",
+28
+],
+"0113271": [
+"Ons",
+"Ikan Asin Selais Asap",
+30
+],
+"0113272": [
+"Ons",
+"Ikan Asin Senangin",
+30
+],
+"0113276": [
+"Ons",
+"Ikan Asin Sunu",
+30
+],
+"0113277": [
+"Ons",
+"Ikan Asin Tambak",
+30
+],
+"0113280": [
+"Ons",
+"Ikan Asin Kerisi",
+30
+],
+"0113281": [
+"Ons",
+"Ikan Asin Papuyu",
+30
+],
+"0113283": [
+"Ons",
+"Ikan Asin Bilis/Bilih",
+30
+],
+"0113285": [
+"Ons",
+"Ikan Asin Tembang",
+30
+],
+"0113286": [
+"Ons",
+"Ikan Asin Nila",
+30
+],
+"0113287": [
+"Ons",
+"Ikan Asin Kepetek",
+30
+],
+"0113293": [
+"Ons",
+"Ikan Asin Japuh",
+30
+],
+"0113294": [
+"Ons",
+"Ikan Asin Etem",
+30
+],
+"0113295": [
+"Ons",
+"Ikan Asin Cucut",
+30
+],
+"0113296": [
+"Ons",
+"Ikan Asin Layang",
+30
+],
+"0113297": [
+"Ons",
+"Ikan Asin Tawes",
+30
+],
+"0113301": [
+"Ons",
+"Ikan Asin Tamban",
+30
+],
+"0113302": [
+"Ons",
+"Ikan Asin Saluang",
+30
+],
+"0113305": [
+"Ons",
+"Bakso Ikan (Mentah)",
+30
+],
+"0113306": [
+"Ons",
+"Nugget Ikan",
+30
+],
+"0113307": [
+"Ons",
+"Otak Otak Ikan Mentah",
+30
+],
+"0113308": [
+"Ons",
+"Sosis Ikan",
+32
+],
+"0113309": [
+"Ons",
+"Stik Kepiting/Crab Stick/Surimi",
+32
+],
+"0113310": [
+"Ons",
+"Ikan Giling",
+32
+],
+"0113311": [
+"Kilogram",
+"Cumi-Cumi",
+32
+],
+"0113312": [
+"Kilogram",
+"Kepiting/Rajungan",
+32
+],
+"0113313": [
+"Kilogram",
+"Kerang",
+32
+],
+"0113314": [
+"Kilogram",
+"Udang Basah",
+32
+],
+"0113315": [
+"Kilogram",
+"Sotong (Segar)",
+32
+],
+"0113316": [
+"Kilogram",
+"Tiram",
+32
+],
+"0113319": [
+"Kilogram",
+"Gurita",
+32
+],
+"0113320": [
+"Ons",
+"Cumi-Cumi Asin",
+32
+],
+"0113321": [
+"Ons",
+"Udang Asin",
+32
+],
+"0113322": [
+"Ons",
+"Udang Kering (Ebi)",
+32
+],
+"0113325": [
+"Ons",
+"Tempura Seafood",
+32
+],
+"0113326": [
+"Ons",
+"Bakso Kepiting (Mentah)",
+32
+],
+"0113327": [
+"Ons",
+"Bakso Cumi (Mentah)",
+32
+],
+"0113328": [
+"Ons",
+"Bakso Udang/Lobster (Mentah)",
+32
+],
+"0113329": [
+"Ons",
+"Fish Roll",
+32
+],
+"0114001": [
+"Liter",
+"Susu Sapi Murni",
+34
+],
+"0114002": [
+"Liter",
+"Susu Cair Kemasan",
+34
+],
+"0114003": [
+"Liter",
+"Susu Kuda Liar",
+34
+],
+"0114004": [
+"Liter",
+"Susu Kambing",
+34
+],
+"0114005": [
+"Kilogram",
+"Susu Bubuk",
+34
+],
+"0114006": [
+"Klg 397 gram",
+"Susu Kental Manis",
+34
+],
+"0114007": [
+"Bks...….",
+"Susu Bubuk Untuk Wanita Hamil",
+34
+],
+"0114008": [
+"Bks...….",
+"Susu Bubuk Untuk Tulang/ Manula",
+34
+],
+"0114009": [
+"Bks...….",
+"Susu Bubuk Rendah Lemak",
+34
+],
+"0114010": [
+"Bks...….",
+"Susu Diabetes",
+34
+],
+"0114011": [
+"Bks...….",
+"Susu Penderita Gangguan Ginjal",
+34
+],
+"0114012": [
+"Bks...….",
+"Susu Bubuk Untuk Ibu Menyusui",
+36
+],
+"0114013": [
+"Liter",
+"Susu Kedelai",
+36
+],
+"0114014": [
+"Ons",
+"Keju",
+36
+],
+"0114015": [
+"Liter",
+"Susu Fermentasi",
+36
+],
+"0114016": [
+"Butir",
+"Telur Ayam Kampung",
+36
+],
+"0114017": [
+"Kilogram",
+"Telur Ayam Ras",
+36
+],
+"0114018": [
+"Butir",
+"Telur Itik",
+36
+],
+"0114019": [
+"Butir",
+"Telur Puyuh",
+36
+],
+"0114021": [
+"Gram",
+"Creamer",
+36
+],
+"0115001": [
+"Ons",
+"Margarine",
+38
+],
+"0115002": [
+"Liter",
+"Minyak Goreng",
+38
+],
+"0115003": [
+"Liter",
+"Minyak Kelapa",
+38
+],
+"0115004": [
+"Liter",
+"Minyak Jagung",
+38
+],
+"0115005": [
+"Liter",
+"Minyak Kedelai",
+38
+],
+"0115006": [
+"Liter",
+"Minyak Wijen",
+38
+],
+"0115008": [
+"Ons",
+"Mentega (Butter)",
+38
+],
+"0116001": [
+"Kilogram",
+"Alpukat",
+38
+],
+"0116002": [
+"Kilogram",
+"Duku/Langsat",
+40
+],
+"0116003": [
+"Kilogram",
+"Jambu Batu",
+40
+],
+"0116004": [
+"Kilogram",
+"Mangga",
+40
+],
+"0116005": [
+"Kilogram",
+"Nanas",
+40
+],
+"0116006": [
+"Kilogram",
+"Pepaya",
+40
+],
+"0116007": [
+"Kilogram",
+"Pisang",
+40
+],
+"0116008": [
+"Kilogram",
+"Salak",
+40
+],
+"0116009": [
+"Butir",
+"Kelapa Muda",
+40
+],
+"0116010": [
+"Kilogram",
+"Durian",
+40
+],
+"0116011": [
+"Kilogram",
+"Klengkeng",
+40
+],
+"0116012": [
+"Kilogram",
+"Kedondong",
+40
+],
+"0116013": [
+"Kilogram",
+"Nangka",
+40
+],
+"0116014": [
+"Kilogram",
+"Rambutan",
+40
+],
+"0116015": [
+"Kilogram",
+"Sawo",
+40
+],
+"0116016": [
+"Kilogram",
+"Sirsak",
+40
+],
+"0116017": [
+"Kilogram",
+"Sukun/Buah Amu",
+40
+],
+"0116018": [
+"Kilogram",
+"Cempedak",
+40
+],
+"0116019": [
+"Kilogram",
+"Leci",
+40
+],
+"0116020": [
+"Kilogram",
+"Manggis",
+40
+],
+"0116021": [
+"Kilogram",
+"Markisa",
+40
+],
+"0116022": [
+"Kilogram",
+"Srikaya/Buah Nona",
+42
+],
+"0116023": [
+"Kilogram",
+"Matoa",
+42
+],
+"0116045": [
+"Kilogram",
+"Jeruk",
+42
+],
+"0116046": [
+"Ons",
+"Jeruk Nipis/Limau",
+42
+],
+"0116047": [
+"Kilogram",
+"Lemon",
+42
+],
+"0116048": [
+"Kilogram",
+"Apel",
+42
+],
+"0116049": [
+"Kilogram",
+"Pir",
+42
+],
+"0116052": [
+"Kilogram",
+"Bengkuang",
+42
+],
+"0116055": [
+"Kilogram",
+"Stroberi",
+42
+],
+"0116056": [
+"Kilogram",
+"Anggur",
+42
+],
+"0116057": [
+"Kilogram",
+"Melon",
+42
+],
+"0116058": [
+"Kilogram",
+"Semangka",
+42
+],
+"0116059": [
+"Kilogram",
+"Buah Naga",
+42
+],
+"0116060": [
+"Kilogram",
+"Delima",
+42
+],
+"0116061": [
+"Kilogram",
+"Kiwi",
+42
+],
+"0116062": [
+"Kilogram",
+"Belimbing",
+42
+],
+"0116068": [
+"Kilogram",
+"Timun Suri",
+42
+],
+"0116069": [
+"Kilogram",
+"Blewah",
+42
+],
+"0116070": [
+"Ons",
+"Asam",
+42
+],
+"0116071": [
+"Butir",
+"Kelapa",
+42
+],
+"0116072": [
+"Ons",
+"Biji Selasih",
+44
+],
+"0116073": [
+"Kilogram",
+"Kismis",
+44
+],
+"0116074": [
+"Kilogram",
+"Kurma",
+44
+],
+"0116075": [
+"Kilogram",
+"Kacang Mete",
+44
+],
+"0116076": [
+"Kilogram",
+"Kacang Tanah",
+44
+],
+"0116077": [
+"Kilogram",
+"Lebui Lombok",
+44
+],
+"0116078": [
+"Bungkus",
+"Kacang Kulit",
+44
+],
+"0116079": [
+"Kilogram",
+"Kacang Polong",
+44
+],
+"0116080": [
+"Kilogram",
+"Kacang Bogor",
+44
+],
+"0116084": [
+"Kilogram",
+"Kacang Kenari",
+44
+],
+"0116085": [
+"Kilogram",
+"Buah Dalam Kaleng",
+44
+],
+"0116086": [
+"Kilogram",
+"Buah Pala",
+44
+],
+"0116087": [
+"Bungkus",
+"Kacang Asin",
+44
+],
+"0116088": [
+"Bungkus",
+"Kuaci/Kwaci",
+44
+],
+"0116089": [
+"Bungkus",
+"Kacang Atom",
+44
+],
+"0116090": [
+"Bungkus",
+"Kacang Panggang",
+44
+],
+"0116091": [
+"Bungkus",
+"Kacang Telur",
+44
+],
+"0116092": [
+"Bungkus",
+"Kacang Madu",
+44
+],
+"0116093": [
+"Bungkus",
+"Pilus",
+44
+],
+"0116096": [
+"Kilogram",
+"Kacang Almond",
+44
+],
+"0117001": [
+"Kilogram",
+"Bayam",
+46
+],
+"0117002": [
+"Kilogram",
+"Daun Kacang Panjang Muda",
+46
+],
+"0117003": [
+"Kilogram",
+"Daun Katuk",
+46
+],
+"0117004": [
+"Kilogram",
+"Daun Kelor",
+46
+],
+"0117006": [
+"Kilogram",
+"Daun Melinjo",
+46
+],
+"0117007": [
+"Kilogram",
+"Daun Paku/Pakis",
+46
+],
+"0117008": [
+"Kilogram",
+"Daun Pepaya",
+46
+],
+"0117009": [
+"Kilogram",
+"Selada/Daun Selada",
+46
+],
+"0117010": [
+"Kilogram",
+"Daun Singkong",
+46
+],
+"0117011": [
+"Kilogram",
+"Kangkung",
+48
+],
+"0117012": [
+"Kilogram",
+"Kembang Kol",
+48
+],
+"0117013": [
+"Kilogram",
+"Kol Putih/Kubis",
+48
+],
+"0117014": [
+"Kilogram",
+"Pucuk Labu",
+48
+],
+"0117015": [
+"Kilogram",
+"Sawi Hijau",
+48
+],
+"0117016": [
+"Kilogram",
+"Keladi Sayur",
+48
+],
+"0117017": [
+"Kilogram",
+"Daun Kemangi",
+48
+],
+"0117018": [
+"Kilogram",
+"Brokoli",
+48
+],
+"0117019": [
+"Kilogram",
+"Daun Gedi",
+48
+],
+"0117020": [
+"Kilogram",
+"Sawi Putih/Pecay/Pitsai",
+48
+],
+"0117021": [
+"Kilogram",
+"Daun Amu/Daun Sukun",
+48
+],
+"0117022": [
+"Kilogram",
+"Daun Gonda",
+48
+],
+"0117023": [
+"Kilogram",
+"Daun Labu Masih Muda",
+48
+],
+"0117027": [
+"Kilogram",
+"Genjer",
+48
+],
+"0117028": [
+"Kilogram",
+"Asparagus",
+48
+],
+"0117029": [
+"Kilogram",
+"Kecipir",
+48
+],
+"0117030": [
+"Kilogram",
+"Daun Kenikir",
+48
+],
+"0117032": [
+"Kilogram",
+"Daun Ubi Jalar",
+48
+],
+"0117043": [
+"Kilogram",
+"Daun Talas",
+48
+],
+"0117045": [
+"Kilogram",
+"Selada Air",
+48
+],
+"0117047": [
+"Kilogram",
+"Kailan",
+50
+],
+"0117053": [
+"Kilogram",
+"Pakcoy/Pokcoy/ Bokcoy",
+50
+],
+"0117059": [
+"Kilogram",
+"Daun Oyong/Gambas/ Bestru",
+50
+],
+"0117062": [
+"Kilogram",
+"Daun Pohpohan",
+50
+],
+"0117082": [
+"Kilogram",
+"Jantung Pisang",
+50
+],
+"0117083": [
+"Kilogram",
+"Jengkol",
+50
+],
+"0117084": [
+"Kilogram",
+"Ketimun",
+50
+],
+"0117085": [
+"Kilogram",
+"Kulit Melinjo",
+50
+],
+"0117086": [
+"Kilogram",
+"Labu Siam/Jipang",
+50
+],
+"0117087": [
+"Ons",
+"Cabai Hijau",
+50
+],
+"0117088": [
+"Kilogram",
+"Nangka Muda",
+50
+],
+"0117089": [
+"Kilogram",
+"Pare",
+50
+],
+"0117090": [
+"Kilogram",
+"Pepaya Muda",
+50
+],
+"0117091": [
+"Papan",
+"Petai",
+50
+],
+"0117092": [
+"Kilogram",
+"Rimbang/Tekokak",
+50
+],
+"0117093": [
+"Kilogram",
+"Jagung Manis",
+50
+],
+"0117094": [
+"Kilogram",
+"Oyong/Gambas/ Bestru/Emes",
+50
+],
+"0117095": [
+"Kilogram",
+"Jagung Muda/Putren",
+50
+],
+"0117096": [
+"Kilogram",
+"Labu Air/Putih/Cina",
+50
+],
+"0117097": [
+"Kilogram",
+"Labu Parang/Manis/ Merah/Kuning",
+50
+],
+"0117098": [
+"Kilogram",
+"Terong",
+52
+],
+"0117099": [
+"Kilogram",
+"Tomat",
+52
+],
+"0117100": [
+"Ons",
+"Cabai Merah",
+52
+],
+"0117101": [
+"Ons",
+"Cabai Rawit",
+52
+],
+"0117102": [
+"Kilogram",
+"Kluwi/Timbul",
+52
+],
+"0117103": [
+"Kilogram",
+"Leuncak",
+52
+],
+"0117104": [
+"Kilogram",
+"Paprika",
+52
+],
+"0117120": [
+"Kilogram",
+"Buncis",
+52
+],
+"0117121": [
+"Kilogram",
+"Kacang Panjang",
+52
+],
+"0117122": [
+"Kilogram",
+"Edamame",
+52
+],
+"0117123": [
+"Kilogram",
+"Bunga Pepaya",
+52
+],
+"0117124": [
+"Kilogram",
+"Daun Bawang",
+52
+],
+"0117125": [
+"Kilogram",
+"Daun Seledri",
+52
+],
+"0117126": [
+"Ons",
+"Jamur",
+52
+],
+"0117127": [
+"Kilogram",
+"Lobak",
+52
+],
+"0117128": [
+"Kilogram",
+"Rebung",
+52
+],
+"0117129": [
+"Kilogram",
+"Tauge/Kecambah",
+52
+],
+"0117130": [
+"Kilogram",
+"Wortel",
+52
+],
+"0117131": [
+"Kilogram",
+"Umbut Rotan",
+52
+],
+"0117132": [
+"Ons",
+"Bawang Bombay",
+52
+],
+"0117133": [
+"Ons",
+"Bawang Merah",
+54
+],
+"0117134": [
+"Ons",
+"Bawang Putih",
+54
+],
+"0117135": [
+"Kilogram",
+"Rampa-Rampa",
+54
+],
+"0117136": [
+"Bungkus",
+"Sayur Asam Mentah",
+54
+],
+"0117137": [
+"Bungkus",
+"Sayur Bunga Mentah",
+54
+],
+"0117138": [
+"Bungkus",
+"Sayur Sop Mentah",
+54
+],
+"0117139": [
+"Kilogram",
+"Umbut Kelapa",
+54
+],
+"0117140": [
+"Kilogram",
+"Kapri",
+54
+],
+"0117141": [
+"Bungkus",
+"Sayur Lodeh Mentah",
+54
+],
+"0117142": [
+"Bungkus",
+"Sayur Bening Mentah (Paket)",
+54
+],
+"0117143": [
+"Bungkus",
+"Sayur Capcay Mentah (Paket)",
+54
+],
+"0117147": [
+"Bungkus",
+"Sayur Campur Mentah",
+54
+],
+"0117150": [
+"Kilogram",
+"Bawang Merah Giling",
+54
+],
+"0117151": [
+"Kilogram",
+"Bawang Putih Giling",
+54
+],
+"0117152": [
+"Kilogram",
+"Kucai",
+54
+],
+"0117153": [
+"Kilogram",
+"Ketela Pohon",
+54
+],
+"0117154": [
+"Kilogram",
+"Ketela Rambat",
+54
+],
+"0117155": [
+"Kilogram",
+"Talas/Keladi",
+54
+],
+"0117156": [
+"Kilogram",
+"Kentang",
+54
+],
+"0117157": [
+"Kilogram",
+"Ubi Jalar",
+54
+],
+"0117159": [
+"Kilogram",
+"Kacang Hijau",
+56
+],
+"0117160": [
+"Kilogram",
+"Kacang Merah/Joglo",
+56
+],
+"0117162": [
+"Kilogram",
+"Kacang Tolo",
+56
+],
+"0117163": [
+"Kilogram",
+"Kacang Tunggak",
+56
+],
+"0117164": [
+"Ons",
+"Wijen",
+56
+],
+"0117165": [
+"Kilogram",
+"Sagu",
+56
+],
+"0117166": [
+"Kilogram",
+"Tepung Ketela Pohon (Tapioka)",
+56
+],
+"0117167": [
+"Porsi",
+"Enbal Gepe",
+56
+],
+"0117168": [
+"Ons",
+"Oncom",
+56
+],
+"0117169": [
+"Kilogram",
+"Tahu Mentah",
+56
+],
+"0117170": [
+"Ons",
+"Taucho",
+56
+],
+"0117171": [
+"Kilogram",
+"Tempe",
+56
+],
+"0117172": [
+"Ons",
+"Cabai Merah Kering",
+56
+],
+"0117173": [
+"Ons",
+"Bawang Goreng",
+56
+],
+"0117174": [
+"Ons",
+"Emping Mentah",
+56
+],
+"0117175": [
+"Kilogram",
+"Kacang Kedelai",
+56
+],
+"0117176": [
+"Ons",
+"Kecombrang/Onje",
+56
+],
+"0117178": [
+"Kilogram",
+"Gaplek",
+56
+],
+"0117179": [
+"Kilogram",
+"Kasbi Gepe",
+56
+],
+"0117180": [
+"Gram",
+"Sayur Dalam Kaleng",
+56
+],
+"0117182": [
+"Gram",
+"Kembang Tahu",
+58
+],
+"0117183": [
+"Buah",
+"Tempe Mendoan",
+58
+],
+"0117190": [
+"Ons",
+"Tepung Kue Instan",
+58
+],
+"0117191": [
+"Kilogram",
+"Kentang Siap Goreng",
+58
+],
+"0117192": [
+"Kilogram",
+"Cincau",
+58
+],
+"0117193": [
+"Kilogram",
+"Kolang Kaling",
+58
+],
+"0118001": [
+"Ons",
+"Gula Pasir",
+58
+],
+"0118002": [
+"Ons",
+"Gula Batu",
+58
+],
+"0118003": [
+"Ons",
+"Gula Merah",
+58
+],
+"0118004": [
+"Ons",
+"Gula Diabetes",
+60
+],
+"0118007": [
+"Ons",
+"Gula Diet",
+60
+],
+"0118008": [
+"Botol",
+"Selai/Jam",
+60
+],
+"0118009": [
+"Botol",
+"Madu",
+60
+],
+"0118010": [
+"Ons",
+"Mesis",
+60
+],
+"0118011": [
+"Potong",
+"Coklat Batang",
+60
+],
+"0118012": [
+"Buah/Cup",
+"Ice Cream",
+60
+],
+"0118014": [
+"Bungkus",
+"Permen/Kembang Gula",
+60
+],
+"0118015": [
+"Bungkus",
+"Manisan Buah",
+60
+],
+"0118016": [
+"Bungkus",
+"Marsmallow",
+60
+],
+"0119001": [
+"Buah",
+"Kue Basah",
+62
+],
+"0119002": [
+"Butir",
+"Telur Asin",
+62
+],
+"0119003": [
+"Kilogram",
+"Abon",
+62
+],
+"0119004": [
+"Porsi",
+"Nasi Jagung",
+62
+],
+"0119005": [
+"Porsi",
+"Cilok/Cireng/Bastus/ Basreng",
+62
+],
+"0119006": [
+"Porsi",
+"Blondo/Galendo",
+62
+],
+"0119007": [
+"Kilogram",
+"Tape Singkong/Tape Ketan",
+62
+],
+"0119008": [
+"Kilogram",
+"Sosis Siap Makan",
+62
+],
+"0119009": [
+"Kilogram",
+"Telur Gabus",
+62
+],
+"0119010": [
+"Porsi",
+"Serundeng",
+62
+],
+"0119013": [
+"Buah",
+"Jagung Rebus",
+62
+],
+"0119014": [
+"Buah",
+"Perkedel Jagung",
+62
+],
+"0119017": [
+"Buah",
+"Sosis Goreng/Bakar",
+62
+],
+"0119019": [
+"Porsi",
+"Bakso Telor (Baklor)",
+62
+],
+"0119023": [
+"Bungkus",
+"Simping",
+62
+],
+"0119024": [
+"Kilogram",
+"Sumpia",
+62
+],
+"0119029": [
+"Buah",
+"Tahu Bacem",
+62
+],
+"0119031": [
+"Porsi",
+"Telur Gulung",
+62
+],
+"0119032": [
+"Buah",
+"Tahu Isi",
+62
+],
+"0119033": [
+"Kilogram",
+"Makaroni Kering",
+64
+],
+"0119034": [
+"Buah",
+"Wingko Babat",
+64
+],
+"0119035": [
+"Porsi",
+"Klapertart",
+64
+],
+"0119036": [
+"Klg … gram",
+"Susu Bubuk Untuk Balita",
+64
+],
+"0119037": [
+"Bks 400 gram",
+"Susu Bubuk Untuk Bayi",
+64
+],
+"0119038": [
+"Bks...….",
+"Makanan Bayi",
+64
+],
+"0119039": [
+"Bks 150 Gr",
+"Bubur Bayi Kemasan",
+64
+],
+"0119040": [
+"Porsi",
+"Bubur Bayi",
+64
+],
+"0119041": [
+"Gram",
+"Penyedap Masakan/ Vetsin",
+64
+],
+"0119042": [
+"Ons",
+"Bumbu Masak Jadi",
+64
+],
+"0119043": [
+"Ons",
+"Garam",
+64
+],
+"0119044": [
+"Btl=140 ml",
+"Kecap",
+64
+],
+"0119045": [
+"Btl=140 ml",
+"Sambal Jadi",
+64
+],
+"0119046": [
+"Btl= 140 ml",
+"Saus Tomat",
+64
+],
+"0119047": [
+"Ons",
+"Terasi Udang",
+64
+],
+"0119048": [
+"Ons",
+"Tepung Bumbu",
+64
+],
+"0119049": [
+"Ons",
+"Petis Madura",
+64
+],
+"0119050": [
+"Ons",
+"Bumbu/Sambal Pecel",
+64
+],
+"0119051": [
+"Ml",
+"Santan Jadi",
+64
+],
+"0119052": [
+"Ml",
+"Cuka",
+64
+],
+"0119053": [
+"Ons",
+"Vanili",
+66
+],
+"0119054": [
+"Ons",
+"Petis Udang",
+66
+],
+"0119055": [
+"Ons",
+"Terasi Ikan",
+66
+],
+"0119057": [
+"Btl=140 ml",
+"Saus Cabai",
+66
+],
+"0119059": [
+"Btl=140 ml",
+"Saus Tiram",
+66
+],
+"0119060": [
+"Btl=140 ml",
+"Saus Teriyaki",
+66
+],
+"0119061": [
+"Btl=140 ml",
+"Saus Bolognaise",
+66
+],
+"0119062": [
+"Btl=140 ml",
+"Kecap Inggris",
+66
+],
+"0119063": [
+"Kilogram",
+"Kelapa Gongseng",
+66
+],
+"0119064": [
+"Gram",
+"Saus Barbeque",
+66
+],
+"0119065": [
+"Gram",
+"Saus Spaghetti",
+66
+],
+"0119066": [
+"Gram",
+"Saus Asam Manis",
+66
+],
+"0119067": [
+"Btl=140 ml",
+"Kecap Ikan",
+66
+],
+"0119069": [
+"Btl=140 ml",
+"Kecap Asin",
+66
+],
+"0119070": [
+"Gram",
+"Saus Lada Hitam",
+66
+],
+"0119071": [
+"Liter",
+"Santan Segar",
+66
+],
+"0119072": [
+"Gram",
+"Mayonise",
+66
+],
+"0119073": [
+"Ons",
+"Cabai Bubuk",
+66
+],
+"0119074": [
+"Ons",
+"Cabai Giling",
+66
+],
+"0119075": [
+"Gram",
+"Bumbu Tabur",
+66
+],
+"0119076": [
+"Ons",
+"Garam Diet",
+68
+],
+"0119077": [
+"Ons",
+"Kemiri",
+68
+],
+"0119078": [
+"Ons",
+"Ketumbar",
+68
+],
+"0119079": [
+"Ons",
+"Lada/Merica",
+68
+],
+"0119080": [
+"Ons",
+"Daun Sereh",
+68
+],
+"0119081": [
+"Ons",
+"Jahe",
+68
+],
+"0119082": [
+"Ons",
+"Kunyit",
+68
+],
+"0119083": [
+"Ons",
+"Lengkuas",
+68
+],
+"0119084": [
+"Ons",
+"Kencur",
+68
+],
+"0119085": [
+"Ons",
+"Jinten",
+68
+],
+"0119086": [
+"Ons",
+"Kayu Manis",
+68
+],
+"0119087": [
+"Ons",
+"Temu Kunci",
+68
+],
+"0119088": [
+"Ons",
+"Biji Pala",
+68
+],
+"0119089": [
+"Ons",
+"Kapulaga",
+68
+],
+"0119090": [
+"Ons",
+"Bunga Lawang",
+68
+],
+"0119091": [
+"Ons",
+"Daun Jeruk",
+68
+],
+"0119092": [
+"Ons",
+"Daun Salam",
+68
+],
+"0119093": [
+"Ons",
+"Daun Kunyit",
+68
+],
+"0119094": [
+"Ons",
+"Daun Pandan",
+68
+],
+"0119095": [
+"Ons",
+"Andaliman",
+68
+],
+"0119099": [
+"Ons",
+"Oregano",
+70
+],
+"0119100": [
+"Ons",
+"Daun Ketumbar",
+70
+],
+"0119101": [
+"Ons",
+"Daun Mint",
+70
+],
+"0119102": [
+"Ons",
+"Tempoyak",
+70
+],
+"0119103": [
+"Ons",
+"Plik' U",
+70
+],
+"0119104": [
+"Ons",
+"Bahan Agar-Agar",
+70
+],
+"0119105": [
+"Ons",
+"Kerupuk (Siap Makan)",
+70
+],
+"0119106": [
+"Ons",
+"Kerupuk Ikan (Siap Makan)",
+70
+],
+"0119107": [
+"Ons",
+"Kerupuk Udang (Siap Makan)",
+70
+],
+"0119108": [
+"Bungkus",
+"Agar-Agar/Puding",
+70
+],
+"0119109": [
+"Ons",
+"Ragi Tape",
+70
+],
+"0119110": [
+"Ons",
+"Tempe Bosok",
+70
+],
+"0119111": [
+"Ons",
+"Baking Powder",
+70
+],
+"0119113": [
+"Ons",
+"Frambosen",
+70
+],
+"0119114": [
+"Ons",
+"Opak/Kicimpring",
+70
+],
+"0119115": [
+"Ons",
+"Soda Kue",
+70
+],
+"0119116": [
+"Ons",
+"Rengginang (Siap Makan)",
+70
+],
+"0119117": [
+"Ons",
+"Ovalet",
+70
+],
+"0119118": [
+"Ons",
+"Tepung Panir",
+70
+],
+"0121001": [
+"Gram",
+"Minuman Serbuk",
+72
+],
+"0121002": [
+"Gelas",
+"Juice Buah Siap Saji",
+72
+],
+"0122001": [
+"Ons",
+"Kopi Bubuk",
+74
+],
+"0122002": [
+"Botol",
+"Kopi Cair Kemasan",
+74
+],
+"0122003": [
+"Bungkus",
+"Kopi Sachet (Dengan Gula)",
+74
+],
+"0123001": [
+"Bungkus",
+"Teh Bubuk/Celup",
+74
+],
+"0123002": [
+"Botol",
+"Teh Dalam Kemasan",
+76
+],
+"0123003": [
+"Kemas",
+"Teh Tarik Bubuk",
+76
+],
+"0123004": [
+"Bungkus",
+"Teh Bunga",
+76
+],
+"0124001": [
+"Ons",
+"Coklat Bubuk Instan",
+76
+],
+"0125001": [
+"Botol",
+"Air Minum Dalam Kemasan",
+78
+],
+"0125002": [
+"Liter",
+"Air Zam Zam",
+78
+],
+"0125003": [
+"Botol",
+"Air Mineral Kesehatan/Air Alkali",
+78
+],
+"0126001": [
+"Botol",
+"Minuman Ringan",
+78
+],
+"0127001": [
+"Botol",
+"Minuman Energi/ Kesegaran",
+80
+],
+"0127002": [
+"Botol",
+"Sirop/Sirup",
+80
+],
+"0127003": [
+"Botol",
+"Minuman Sereal",
+80
+],
+"0127004": [
+"Kemas",
+"Sari Kelapa",
+80
+],
+"0127005": [
+"Kemas",
+"Bandrek Bubuk",
+80
+],
+"0127006": [
+"Kemas",
+"Bajigur Bubuk",
+80
+],
+"0127007": [
+"Kemas",
+"Sekuteng Bubuk",
+80
+],
+"0127008": [
+"Kemas",
+"Susu Telur Madu Jahe Bubuk (STMJ)",
+80
+],
+"0127009": [
+"Botol",
+"Minuman Berserat",
+80
+],
+"0127010": [
+"Botol",
+"Minuman Isotonik",
+80
+],
+"0127011": [
+"Botol",
+"Minuman Panas Dalam",
+80
+],
+"0127012": [
+"Botol",
+"Sari Kacang Hijau",
+80
+],
+"0127013": [
+"Botol",
+"Jelly Drink",
+80
+],
+"0127014": [
+"Botol",
+"Air Tebu",
+82
+],
+"0131001": [
+"Botol",
+"Tuak",
+82
+],
+"0131002": [
+"Botol",
+"Vodka",
+82
+],
+"0131003": [
+"Botol",
+"Wisky",
+82
+],
+"0131004": [
+"Botol",
+"Martini",
+82
+],
+"0131005": [
+"Botol",
+"Brandy",
+82
+],
+"0131006": [
+"Botol",
+"Rum",
+82
+],
+"0132001": [
+"Botol",
+"Anggur Malaga",
+84
+],
+"0132002": [
+"Botol",
+"Champagne",
+84
+],
+"0132003": [
+"Botol",
+"Sake",
+84
+],
+"0133001": [
+"Botol",
+"Bir",
+84
+],
+"0133002": [
+"Botol",
+"Bir Hitam",
+84
+],
+"0141001": [
+"Bungkus",
+"Sigaret Kretek Tangan (SKT)",
+86
+],
+"0141002": [
+"Bungkus",
+"Sigaret Kretek Mesin (SKM)",
+86
+],
+"0141003": [
+"Bungkus",
+"Sigaret Putih Mesin (SPM)",
+86
+],
+"0141004": [
+"Ons",
+"Klobot",
+86
+],
+"0141005": [
+"Batang",
+"Cerutu",
+86
+],
+"0141006": [
+"Ons",
+"Tembakau",
+86
+],
+"0141007": [
+"Bungkus",
+"Kertas Tembakau",
+86
+],
+"0141008": [
+"Ons",
+"Gambir",
+86
+],
+"0151001": [
+"",
+"Jasa Penggilingan Padi",
+88
+],
+"0151002": [
+"",
+"Jasa Penggilingan Bumbu",
+88
+],
+"0151003": [
+"",
+"Jasa Penggilingan Tepung",
+88
+],
+"0151004": [
+"",
+"Jasa Penggilingan Kopi",
+88
+],
+"0151005": [
+"",
+"Jasa Parut Kelapa",
+88
+],
+"0151006": [
+"",
+"Jasa Penggilingan Daging",
+88
+],
+"0151007": [
+"",
+"Jasa Penggilingan Jagung",
+88
+],
+"1011001": [
+"Porsi",
+"Sop Kaledo",
+88
+],
+"1011002": [
+"Loyang",
+"Pizza",
+90
+],
+"1011003": [
+"Porsi",
+"Mie",
+90
+],
+"1011004": [
+"Porsi",
+"Steak",
+90
+],
+"1011005": [
+"Porsi",
+"Sayur Olahan",
+90
+],
+"1011006": [
+"Buah",
+"Kue Kering Berminyak",
+90
+],
+"1011007": [
+"Porsi",
+"Selat Solo",
+90
+],
+"1011008": [
+"Potong",
+"Ayam Bakar",
+90
+],
+"1011009": [
+"Potong",
+"Ayam Goreng",
+90
+],
+"1011010": [
+"Buah",
+"Binte",
+90
+],
+"1011011": [
+"Porsi",
+"Bubur",
+90
+],
+"1011012": [
+"Porsi",
+"Bubur Kacang Hijau",
+90
+],
+"1011013": [
+"Porsi",
+"Capcai",
+90
+],
+"1011014": [
+"Porsi",
+"Pempek",
+90
+],
+"1011015": [
+"Porsi",
+"Gado-Gado",
+90
+],
+"1011016": [
+"Porsi",
+"Gudeg",
+90
+],
+"1011017": [
+"Porsi",
+"Gulai",
+90
+],
+"1011018": [
+"Buah",
+"Hamburger",
+90
+],
+"1011019": [
+"Ekor",
+"Ikan Bakar",
+90
+],
+"1011020": [
+"Porsi",
+"Ketupat/Lontong Sayur",
+90
+],
+"1011021": [
+"Loyang",
+"Martabak",
+90
+],
+"1011022": [
+"Porsi",
+"Nasi Dengan Lauk",
+92
+],
+"1011023": [
+"Porsi",
+"Opor Ayam",
+92
+],
+"1011024": [
+"Porsi",
+"Pepes",
+92
+],
+"1011025": [
+"Porsi",
+"Pecel",
+92
+],
+"1011026": [
+"Porsi",
+"Plecing Kangkung",
+92
+],
+"1011027": [
+"Porsi",
+"Rawon",
+92
+],
+"1011028": [
+"Porsi",
+"Rendang",
+92
+],
+"1011029": [
+"Porsi",
+"Rujak",
+92
+],
+"1011030": [
+"Porsi",
+"Sate",
+92
+],
+"1011031": [
+"Porsi",
+"Siomay",
+92
+],
+"1011032": [
+"Porsi",
+"Soto",
+92
+],
+"1011033": [
+"Porsi",
+"Tongseng",
+92
+],
+"1011034": [
+"Porsi",
+"Ketupat Kandangan",
+92
+],
+"1011035": [
+"Porsi",
+"Sop",
+92
+],
+"1011036": [
+"Potong",
+"Babi Panggang",
+92
+],
+"1011037": [
+"Porsi",
+"Tekwan/Model",
+92
+],
+"1011038": [
+"Bungkus",
+"Asinan",
+92
+],
+"1011039": [
+"Porsi",
+"Papeda",
+92
+],
+"1011040": [
+"Porsi",
+"Tahu Campur",
+92
+],
+"1011041": [
+"Kilogram",
+"Dendeng Masak",
+92
+],
+"1011042": [
+"Ekor",
+"Ikan Goreng",
+94
+],
+"1011043": [
+"Porsi",
+"Otak-Otak",
+94
+],
+"1011044": [
+"Buah",
+"Roti Goreng",
+94
+],
+"1011045": [
+"Porsi",
+"Makanan Khas Jepang",
+94
+],
+"1011046": [
+"Potong",
+"Bebek Goreng",
+94
+],
+"1011047": [
+"Porsi",
+"Ikan Asam Padeh",
+94
+],
+"1011048": [
+"Porsi",
+"Fu Yung Hai",
+94
+],
+"1011049": [
+"Porsi",
+"Ketoprak",
+94
+],
+"1011050": [
+"Porsi",
+"Toge Goreng",
+94
+],
+"1011051": [
+"Porsi",
+"Seblak",
+94
+],
+"1011052": [
+"Porsi",
+"Batagor",
+94
+],
+"1011053": [
+"Porsi",
+"Roti Bakar",
+94
+],
+"1011054": [
+"Gelas",
+"Bandrek",
+94
+],
+"1011055": [
+"Porsi",
+"Minuman Es",
+94
+],
+"1011056": [
+"Gelas",
+"Kopi Siap Saji",
+94
+],
+"1011057": [
+"Gelas",
+"Teh Siap Saji",
+94
+],
+"1011058": [
+"Buah",
+"Serabi",
+94
+],
+"1011059": [
+"Buah",
+"Tahu Bakso",
+94
+],
+"1011060": [
+"Porsi",
+"Tahu Telor/Tahu Tek- Tek",
+94
+],
+"1011061": [
+"Porsi",
+"Pindang",
+94
+],
+"1011063": [
+"Porsi",
+"Bakso Siap Santap",
+96
+],
+"1011064": [
+"Porsi",
+"Lentog",
+96
+],
+"1011065": [
+"Porsi",
+"Docang",
+96
+],
+"1011066": [
+"Porsi",
+"Daging Sei",
+96
+],
+"1011067": [
+"Porsi",
+"Bebek Palekko",
+96
+],
+"1011068": [
+"Porsi",
+"Empal Gentong",
+96
+],
+"1011069": [
+"Porsi",
+"Ayam Bumbu Rujak",
+96
+],
+"1011070": [
+"Porsi",
+"Ayam Suwir",
+96
+],
+"1011073": [
+"Porsi",
+"Karedok",
+96
+],
+"1011074": [
+"Buah",
+"Hot Dog",
+96
+],
+"1011075": [
+"Porsi",
+"Spaghetti",
+96
+],
+"1011076": [
+"Porsi",
+"Kebab",
+96
+],
+"1011077": [
+"Gelas",
+"Bajigur",
+96
+],
+"1011078": [
+"Gelas",
+"Sekuteng",
+96
+],
+"1011079": [
+"Gelas",
+"Wedang Ronde",
+96
+],
+"1011080": [
+"Gelas",
+"Susu Telur Madu Jahe (STMJ)",
+96
+],
+"1011081": [
+"Gelas",
+"Teh Tarik",
+96
+],
+"1011082": [
+"Porsi",
+"Steamboat",
+96
+],
+"1011083": [
+"Porsi",
+"Salad",
+96
+],
+"1011085": [
+"Gelas",
+"Minuman Jahe",
+96
+],
+"1011086": [
+"Porsi",
+"Churros",
+98
+],
+"1011087": [
+"Porsi",
+"Nasi Tutug Oncom",
+98
+]
+}
